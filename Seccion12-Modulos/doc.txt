@@ -1,0 +1,27 @@
+#Los objetos incorporados son todos los objetos que están escritos dentro del intérprete de Python en lenguaje C.
+
+#Los módulos incorporados contienen objetos incorporados.
+
+#Algunos objetos integrados no están disponibles de inmediato en el espacio de nombres global. Son partes de un módulo incorporado. Para usar esos objetos, el módulo debe importarse primero. P.ej.:
+
+import time
+time.sleep(5)
+
+A list of all builtin modules can be printed out with:
+import sys
+sys.builtin_module_names
+
+Las bibliotecas estándar es una jerga que incluye tanto módulos integrados escritos en C como también módulos escritos en Python.
+
+Las bibliotecas estándar escritas en Python residen en el directorio de instalación de Python como archivos .py. Puede encontrar su ruta de directorio con sys.prefix.
+
+Los paquetes son una colección de módulos .py.
+
+Las bibliotecas de terceros son paquetes o módulos escritos por terceros (no el equipo de desarrollo central de Python).
+
+Las bibliotecas de terceros son paquetes o módulos escritos por terceros (no el equipo de desarrollo central de Python).
+
+Las bibliotecas de terceros se pueden instalar desde la terminal / línea de comando:
+
+install pandas 
+pip3 install pandas or use python3 -m pip install pandas if that doesn't work.
