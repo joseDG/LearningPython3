@@ -1,0 +1,5 @@
+Hola, estoy aprendiendo Python 
+En una lugar de la marcha 
+de cuyo nombre no quiero acordarme 
+etc etc etc 
+Python es genial Nueva linea en el fichero
